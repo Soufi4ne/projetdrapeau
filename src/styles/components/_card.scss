@@ -1,9 +1,12 @@
+
+
 .card {
   position: relative;
   height: 100px;
   width: 160px;
   border-radius: 4px;
   transition: 0.3s;
+
 
   h2 {
     font-size: 1rem;
@@ -32,9 +35,10 @@
     justify-content: center;
     border-radius: 10px;
     opacity: 0;
-    transform: scaleY(0);
+    transform-origin: center;
     transition: 0.3s;
   }
+
   img {
     height: 100px;
     width: 160px;

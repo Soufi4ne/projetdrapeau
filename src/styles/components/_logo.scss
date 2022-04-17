@@ -1,11 +1,12 @@
 .logo {
   @include verticalCenter;
   margin: 5px auto;
-  width: 200px;
+  height: 150px;
+  width: 35%;
   border-radius: 20px;
   padding: 5px 0;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
-  background: url(../../assets/img/main.jpg) center/cover;
+  background: url(../../assets/img/worldBaneer.jpg) center/cover;
 
   img {
     height: 40px;
@@ -13,5 +14,7 @@
   h3 {
     margin-left: 10px;
     color: $color-1;
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: #fff;
   }
 }

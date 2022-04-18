@@ -17,7 +17,7 @@ const Countries = () => {
     return (
         <div className='countries'>
             <h1>List of All Countries Flags</h1>
-            <ul>
+            <ul className='container-radio'>
                 {
                     data.map((country, index) => (
                     // <li key={index}>{country.translations.cym.official}</li> 

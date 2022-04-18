@@ -1,3 +1,7 @@
+This is just a basic School Project for Efrei Paris. In Communication courses, students had to chose a subject about the mondialisation, the climat change, or the polution. My theme is the mondialisation ; with the Rest Country API and ReactJS i builded in one day this super simple website that displays every flags from the World.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

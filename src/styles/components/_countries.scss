@@ -1,5 +1,11 @@
 .countries {
   text-align: center;
+  
+  h1{
+    padding-bottom: 5%;
+    color: white;
+    text-decoration: underline;
+  }
 
   .radio-container {
     justify-content: space-around;
@@ -14,6 +20,8 @@
     input {
       transform: translateY(1px);
     }
+
+    
 
     label {
       margin-left: 10px;
@@ -37,6 +45,8 @@
       color: $white;
     }
   }
+
+ 
 
   button {
     margin: 0 auto 20px;

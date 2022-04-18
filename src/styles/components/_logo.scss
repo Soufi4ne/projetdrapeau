@@ -1,12 +1,12 @@
 .logo {
   @include verticalCenter;
   margin: 5px auto;
-  height: 150px;
-  width: 35%;
-  border-radius: 20px;
+  height: 200px;
+  width: 50%;
   padding: 5px 0;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
   background: url(../../assets/img/worldBaneer.jpg) center/cover;
+  margin-bottom: 5%;
 
   img {
     height: 40px;

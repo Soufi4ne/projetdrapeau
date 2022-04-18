@@ -9,6 +9,8 @@ const Card = ({country}) => {
             <div className='infos'>
                 <h2>{country.translations.cym.official}</h2>
                 <h4>🏙️ : {country.capital}</h4>
+                <h5>🌍 : {[country.region]}</h5>
+
             </div>
         </li>
     );
